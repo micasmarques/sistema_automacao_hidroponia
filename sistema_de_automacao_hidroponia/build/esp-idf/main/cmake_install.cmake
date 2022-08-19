@@ -1,8 +1,8 @@
-# Install script for directory: C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/main
+# Install script for directory: C:/Users/micas/project-4/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sistema_de_automacao_hidroponia")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project-4")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

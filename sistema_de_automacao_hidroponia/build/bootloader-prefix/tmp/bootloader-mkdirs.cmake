@@ -5,15 +5,15 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/esp/esp-idf/components/bootloader/subproject"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix/tmp"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix/src"
-  "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/micas/project-4/build/bootloader"
+  "C:/Users/micas/project-4/build/bootloader-prefix"
+  "C:/Users/micas/project-4/build/bootloader-prefix/tmp"
+  "C:/Users/micas/project-4/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/micas/project-4/build/bootloader-prefix/src"
+  "C:/Users/micas/project-4/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/micas/project-4/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()

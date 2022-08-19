@@ -133,6 +133,14 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
+# Example configuration
+#
+CONFIG_EXAMPLE_PD_SCK_GPIO=18
+CONFIG_EXAMPLE_DOUT_GPIO=19
+CONFIG_EXAMPLE_AVG_TIMES=5
+# end of Example configuration
+
+#
 # Compiler options
 #
 CONFIG_COMPILER_OPTIMIZATION_DEFAULT=y

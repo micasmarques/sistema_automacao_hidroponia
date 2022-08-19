@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
 
 endif()
 

@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader",
-    "config_file":        "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/sdkconfig",
+    "build_dir":          "C:/Users/micas/project-4/build/bootloader",
+    "config_file":        "C:/Users/micas/project-4/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

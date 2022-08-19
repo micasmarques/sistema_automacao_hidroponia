@@ -1,8 +1,8 @@
-# Install script for directory: C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia
+# Install script for directory: C:/Users/micas/project-4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sistema_de_automacao_hidroponia")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project-4")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/micas/project-4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

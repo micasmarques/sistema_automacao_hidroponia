@@ -317,7 +317,7 @@ void ds18b20_init(int GPIO) {
 	DS_GPIO = GPIO;
 	gpio_pad_select_gpio(DS_GPIO);
 	init = 1;
-	printf("FINALIZOU ds18b20_init");
+	printf("FINALIZOU ds18b20_init\n");
 }
 
 //
@@ -325,12 +325,14 @@ void ds18b20_init(int GPIO) {
 // You do not need to do it for the first search, though you could.
 //
 void reset_search() {
+	printf("entrou reset\n");
 	devices=0;
 	// reset the search state
 	LastDiscrepancy = 0;
 	LastDeviceFlag = false;
 	LastFamilyDiscrepancy = 0;
 	for (int i = 7; i >= 0; i--) {
+		// printf("entrou reset %d\n", i);
 		ROM_NO[i] = 0;
 	}
 }

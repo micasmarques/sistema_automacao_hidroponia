@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/micas/project-4/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sistema_de_automacao_hidroponia")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project-4")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/micas/project-4/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

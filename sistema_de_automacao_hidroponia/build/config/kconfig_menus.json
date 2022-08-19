@@ -2050,6 +2050,44 @@
     {
         "children": [
             {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO number connected to PD/SCK pin",
+                "id": "EXAMPLE_PD_SCK_GPIO",
+                "name": "EXAMPLE_PD_SCK_GPIO",
+                "range": null,
+                "title": "PD/SCK GPIO number",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO number connected to DOUT pin",
+                "id": "EXAMPLE_DOUT_GPIO",
+                "name": "EXAMPLE_DOUT_GPIO",
+                "range": null,
+                "title": "DOUT GPIO number",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "EXAMPLE_AVG_TIMES",
+                "name": "EXAMPLE_AVG_TIMES",
+                "range": null,
+                "title": "Samples to average",
+                "type": "int"
+            }
+        ],
+        "depends_on": null,
+        "id": "example-configuration",
+        "title": "Example configuration",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
                 "children": [
                     {
                         "children": [],

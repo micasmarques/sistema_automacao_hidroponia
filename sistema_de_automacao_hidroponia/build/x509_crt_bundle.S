@@ -1,4 +1,4 @@
-/* * Data converted from C:/GIT/sistema_automacao_hidroponia/sistema_de_automacao_hidroponia/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/micas/project-4/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
